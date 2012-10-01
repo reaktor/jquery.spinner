@@ -1,0 +1,21 @@
+@import "compass/reset";
+@import "compass/css3/images";
+@import "compass/utilities/general/clearfix";
+@import "compass/css3/box-shadow";
+@mixin light-shadow { @include box-shadow(0 3px 3px -4px #aaaaaa); }
+@import "spinner/*.png";
+.spinner {
+  height: 25px; width: 71px; @include clearfix; @include light-shadow;
+  button,
+  .value { text-align: center; display: block; float: left; height: 100%; line-height: 25px; margin:0; }
+  button { border: none; width: 23px; color: #e5312a; font: 22px Arial bold; padding: 0; outline: none; }
+  .decrease { @include spinner-sprite(minus); cursor: pointer; text-indent: -10000px;
+    &[disabled] { @include spinner-sprite(minusDisabled); cursor: default; }
+  }
+  .increase { @include spinner-sprite(plus); cursor: pointer; text-indent: -10000px; }
+  .value { @include spinner-sprite(value); width: 24px; height: 27px; border: none; font-family: Arial; color: #ffffff; padding: 0px;
+    &.passive { @include spinner-sprite(valuePassive); color: #919191 }
+  }
+  .error,
+  .invalid { background: #aa0000; }
+}
