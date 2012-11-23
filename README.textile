@@ -1,5 +1,4 @@
-jquery.spinner
-==============
+h1. jquery.spinner
 
 Component for selecting numbers by typing or clicking
 
