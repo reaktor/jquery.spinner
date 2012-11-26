@@ -6,6 +6,15 @@ Component for selecting numbers by typing or clicking
 
 "Try out":http://reaktor.github.com/jquery.spinner/ 
 
+h1. Features
+
+* Select amout by clicking + and - buttons
+* Select amout by entering number
+* Select amount by pressing up/down arrows
+* Validate invalid inputs and replace by last valid value after a delay
+* Trigger update event when value changes
+* Option for default and min value
+* Unobtrusive
 
 h1. License
 
