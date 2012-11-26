@@ -1,3 +1,5 @@
+!http://reaktor.github.com/jquery.spinner/site/spinner.png!
+
 h1. jquery.spinner
 
 Component for selecting numbers by typing or clicking
