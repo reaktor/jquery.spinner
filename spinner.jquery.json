@@ -1,7 +1,7 @@
 {
-  "name"        : "Spinner",
+  "name"        : "spinner",
   "title"       : "jQuery Spinner",
-  "description" : "Small (< 100 lines) and lightweight implementation of a spinner for selecting numbers by clicking +/- or by typing. Supports validation, arrow keys, min and max constraints and is unobtrusive.
+  "description" : "Small (< 100 lines) and lightweight implementation of a spinner for selecting numbers by clicking +/- or by typing. Supports validation, arrow keys, min and max constraints and is unobtrusive.",
   "keywords"    : [
     "spinner",
     "ui",
@@ -32,7 +32,7 @@
   "bugs"        : "https://github.com/reaktor/jquery.spinner/issues",
   "homepage"    : "http://reaktor.github.com/jquery.spinner/",
   "docs"        : "http://reaktor.github.com/jquery.spinner/",
-  "download"    : "https://github.com/reaktor/jquery.spinner/archive/master.zip"
+  "download"    : "https://github.com/reaktor/jquery.spinner/archive/master.zip",
   "dependencies": {
     "jquery": ">=1.5"
   }
