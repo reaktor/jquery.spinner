@@ -1,0 +1,39 @@
+{
+  "name"        : "Spinner",
+  "title"       : "jQuery Spinner",
+  "description" : "Small (< 100 lines) and lightweight implementation of a spinner for selecting numbers by clicking +/- or by typing. Supports validation, arrow keys, min and max constraints and is unobtrusive.
+  "keywords"    : [
+    "spinner",
+    "ui",
+    "input",
+    "updown",
+    "number",
+    "spinbutton",
+    "form"
+  ],
+  "version"     : "1.0.0",
+  "author"      : {
+    "name": "Eero Anttila",
+    "url" : "http://eeroanttila.wordpress.com/about/"
+  },
+  "maintainers" : [
+    {
+      "name" : "Eero Anttila",
+      "email": "eea@iki.fi",
+      "url"  : "http://eeroanttila.wordpress.com/about/"
+    }
+  ],
+  "licenses"    : [
+    {
+      "type": "Apache License, Version 2.0",
+      "url" : "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "bugs"        : "https://github.com/reaktor/jquery.spinner/issues",
+  "homepage"    : "http://reaktor.github.com/jquery.spinner/",
+  "docs"        : "http://reaktor.github.com/jquery.spinner/",
+  "download"    : "https://github.com/reaktor/jquery.spinner/archive/master.zip"
+  "dependencies": {
+    "jquery": ">=1.5"
+  }
+}
